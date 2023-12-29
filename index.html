@@ -50,6 +50,7 @@ duck duck duck duck duck duck duckduckduckduckduckduckduck</div></section></div>
         currentSpeedIndex = (currentSpeedIndex + 1) % speeds.length;
         this.playbackRate = speeds[currentSpeedIndex];
         sound.currentTime = 0;
+        sound.volume = 0.01;
         sound.play();
     });
 });
@@ -63,6 +64,7 @@ duck duck duck duck duck duck duckduckduckduckduckduckduck</div></section></div>
         currentSpeedIndex = (currentSpeedIndex + 1) % speeds.length;
         this.playbackRate = speeds[currentSpeedIndex];
         sound.currentTime = 0;
+        sound.volume = 0.01;
         sound.play();
     });
 });
